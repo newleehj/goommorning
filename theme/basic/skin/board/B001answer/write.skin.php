@@ -6,8 +6,6 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/open-iconic.css">', 0);
 ?>
 
-
-
 <section id="bo_w">
 
     <h2 class="sound_only"><?php echo $g5['title'] ?></h2>

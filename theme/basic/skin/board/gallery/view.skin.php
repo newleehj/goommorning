@@ -12,7 +12,6 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
 <article id="bo_v" style="width:<?php echo $width; ?>">
     <header>
-       
         <h2 id="bo_v_title">
             <?php if ($category_name) { ?>
             <span class="bo_v_cate"><?php echo $view['ca_name']; // 분류 출력 끝 ?></span> 
@@ -23,8 +22,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
             ?></span>
         </h2>
     </header>
-    <div class="latest_top_wr">
-    </div>            
+
     <section id="bo_v_info">
         <h2>페이지 정보</h2>
         <div class="profile_info">
