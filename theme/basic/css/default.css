@@ -173,6 +173,8 @@ box-shadow:0 2px 5px rgba(0,0,0,0.2)}
 
 /* 상단 배너-안녕하세요 굿모닝입니다. */
 .indexup_banner {width:1100px;margin:0 0 20px 50px;}
+.banner_text {background:#323333;color:#fff;font-size:15px;margin:10px 0 30px 0;text-align:center;padding:10px 0}
+.banner_text > span {font-weight:bolder;}
 
 /* 하단 바로가기 link 게시판 2개 - 키우기 및 굼벵이 구매 게시판 바로가기 */
 .indexlink {width:1100px;margin:50px 0 20px 50px;}
@@ -202,16 +204,18 @@ box-shadow:0 2px 5px rgba(0,0,0,0.2)}
 .latest_top_wr:after {display:block;visibility:hidden;clear:both;content:""}
 
 /* 하단 레이아웃 */
-#ft {background:#212020;margin:0 auto;text-align:center}
+#ft {background:#212020;margin:0 auto;text-align:center;}
 #ft h1 {position:absolute;font-size:0;line-height:0;overflow:hidden}
-#ft_wr {max-width:1240px;margin:0;padding:40px 0;position:relative;display:inline-block;text-align:left}
+#ft_wr {max-width:1300px;margin-left:100px;padding:40px 0;position:relative;display:inline-block;text-align:left}
 #ft_wr:after {display:block;visibility:hidden;clear:both;content:""}
-#ft_wr .ft_cnt {width:25%;float:left;padding:0 20px}
+#ft_wr .ft_cnt {width:15%;float:left;padding:0 20px}
+#ft_wr .ft_cnt2 {width:58%;float:left;padding:0 20px}
+#ft_wr > img {width:100px;position:absolute;top:30px;left:900px;}
 
 #ft_link {text-align:left}
 #ft_link a {display:block;color:#fff;line-height:2em;font-weight:bold}
 #ft_company h2 {font-size:1.2em;margin-bottom:20px}
-#ft_company {font-weight:normal;color:#e3e3e3;line-height:2em}
+#ft_company {width:50%;font-weight:normal;color:#e3e3e3;line-height:2em}
 #ft_catch {margin:20px 0 10px}
 #ft_copy {text-align:center;width:1200px;margin:0 auto;padding:20px 0;color:#5b5b5b;font-size:0.92em;border-top:1px solid #383838}
 #top_btn {position:fixed;bottom:20px;right:20px;width:50px;height:50px;line-height:46px;border:2px solid #333;color:#333;text-align:center;font-size:15px;z-index:90;background:rgba(255,255,255,0.5)}

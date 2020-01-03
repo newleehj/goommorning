@@ -14,6 +14,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
 <div class="indexup_banner">
     <img src="<?php echo G5_URL ?>/images/indexup.png" alt="인덱스 상단 소개 배너">
+    <p class="banner_text"><span>구매 문의</span> 010-5904-1603  ㅣ  <span>E-mail</span> goommorning@naver.com  ㅣ  <span>계좌</span> 농협 000-0000-00000(굼모닝)</p>
 </div>    
 
 <div class="latest_top_wr">
