@@ -166,18 +166,18 @@ box-shadow:0 2px 5px rgba(0,0,0,0.2)}
 #aside {float:right;width:235px;padding:0;height:100%;margin:20px 0 20px 20px}
 #aside {display:none;}
 
-#container {position:relative;float:left;min-height:500px;height:auto !important;margin:20px 0;height:500px;font-size:1em;width:930px;zoom:1;font-family:'Nanum Gothic', sans-serif;}
+#container {position:relative;float:left;min-height:500px;height:auto !important;margin:50px 120px;height:500px;font-size:1em;width:930px;zoom:1;font-family:'Nanum Gothic', sans-serif;}
 #container:after {display:block;visibility:hidden;clear:both;content:""}
 #container_title {font-size:1.333em;margin:0 auto;font-weight:bold}
 #container_title span {margin:0 auto 10px;display:block;line-height:30px}
 
 /* 상단 배너-안녕하세요 굿모닝입니다. */
-.indexup_banner {width:1100px;margin:0 0 20px 50px;}
+.indexup_banner {width:1100px;margin:0 0 20px -70px;}
 .banner_text {background:#323333;color:#fff;font-size:15px;margin:10px 0 30px 0;text-align:center;padding:10px 0}
 .banner_text > span {font-weight:bolder;}
 
 /* 하단 바로가기 link 게시판 2개 - 키우기 및 굼벵이 구매 게시판 바로가기 */
-.indexlink {width:1100px;margin:50px 0 20px 50px;}
+.indexlink {width:1100px;margin:50px 0 20px -70px;}
 .indexlinkbox1 {border:0.5px solid #ddd;float:left;width:540px;height:280px;background:#fff;margin-right:10px;position:relative;}
 .indexlinkbox1 > img {width:200px;position:absolute;top:60px;left:300px;}
 .indexlink1T {position:absolute;top:40px;left:40px;font-size:16px;font-weight:bolder;}
@@ -200,7 +200,7 @@ box-shadow:0 2px 5px rgba(0,0,0,0.2)}
 .lt_wr:nth-child(3n+1) {clear:both}
 .latest_wr {margin-bottom:20px}
 .latest_wr:after {display:block;visibility:hidden;clear:both;content:""}
-.latest_top_wr {width:1100px;margin-left:50px;}
+.latest_top_wr {width:1100px;margin-left:-70px;}
 .latest_top_wr:after {display:block;visibility:hidden;clear:both;content:""}
 
 /* 하단 레이아웃 */

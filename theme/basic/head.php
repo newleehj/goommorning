@@ -30,7 +30,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
         <div id="logo">
             <a href="<?php echo G5_URL ?>"><img src="<?php echo G5_URL ?>/images/logo2.png" alt="<?php echo $config['cf_title']; ?>"></a>
         </div>
-    
+        
         <div class="hd_sch_wr">
             <fieldset id="hd_sch">
                 <legend>사이트 내 전체검색</legend>
