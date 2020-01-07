@@ -15,7 +15,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 <section class="contactwrap">
     <article class="phone_c">
         <img src="<?php echo G5_URL ?>/images/phone.png" alt="전화기 아이콘">
-        <p>지금 즉시 전화주문<br>010.5904.1603</p>
+        <p>전화 주문 및 문의<br>010.5904.1603</p>
     </article>
     <article class="naver_c"><a href="https://shopping.naver.com/">
         <img src="<?php echo G5_URL ?>/images/mall.png" alt="쇼핑카트 아이콘">
