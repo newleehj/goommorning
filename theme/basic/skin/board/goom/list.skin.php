@@ -40,9 +40,25 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
         <p class="sell_p">*택배비 없음ㅣ배송기간 2일~3일</p>
     </article>
 </section>
-
+<section class="detailgoom">
+    <img src="<?php echo G5_URL ?>/images/detail.png" alt="상세피이지">
+</section>
+<section class="contactwrap2">
+    <article class="phone_c">
+        <img src="<?php echo G5_URL ?>/images/phone.png" alt="전화기 아이콘">
+        <p>전화 주문 및 문의<br>010.5904.1603</p>
+    </article>
+    <article class="naver_c"><a href="https://shopping.naver.com/">
+        <img src="<?php echo G5_URL ?>/images/mall.png" alt="쇼핑카트 아이콘">
+        <p>온라인 구매 바로가기 Click >><br>NAVER 쇼핑</p></a>
+    </article>
+    <article class="kakao_c"><a href="https://store.kakao.com/">
+        <img src="<?php echo G5_URL ?>/images/mall.png" alt="쇼핑카드 아이콘">
+        <p>온라인 구매 바로가기 Click >><br>카카오 쇼핑</p></a>
+    </article>
+</section>
 <script>
     $(document).ready(function(){
-      $('.slider').bxSlider();
+      $('.slider').bxSlider({auto: true});
     });
   </script>
