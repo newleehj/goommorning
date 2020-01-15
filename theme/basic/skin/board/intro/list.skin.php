@@ -14,12 +14,12 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
 <section id="introwrap">
     <article class="introimg">
-        <img src="<?php echo G5_URL ?>/images/exam.jpg" alt="함께찍은 사진">
+        <img src="<?php echo G5_URL ?>/images/intro1.png" alt="굼벵이 확대">
     </article>
     <article class="introtext">
         <p>Goom모닝은 고향인 전라남도 함평으로 내려온 굼아저씨와 잡초농부가<br>2018년, 굼벵이 농장을 짓고 흰점박이꽃무지(굼벵이) 사육을 시작했습니다.<br>
-        2019년부터 안정적인 생산에 맞춰 기업 중심으로 납품을 해왔고 <br>2020년부터 지속적인 생산량 증가로 온라인 판매까지 영역을 확장했으며,<br>
-        생태관찰과 교육이 가능한 키우기 세트 판매도 시작했습니다. <br> Goom모닝은 농촌 활력을 위해 도전한 청년들의 농장입니다!<br>
+        2019년부터 안정적인 생산에 맞춰 기업 중심으로 납품을 해왔고 <br>2020년부터 지속적인 생산량 증가로 온라인 판매까지 영역을 확장했습니다<br>
+        단백질의 보고이자 미래 식량으로 주목받는 굼벵이!<br>Goom모닝은 농촌 활력을 위해 도전하는 청년들의 농장입니다!<br>
         현재 굼아저씨는 유채 재배, 잡초농부는 단삼과 삼잎국화도 재배도 하고 있답니다.</p> 
     </article>
 </section>
@@ -41,7 +41,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 </section>
 <section class="mapwrap">
     <p class="title">Goom모닝 오시는 길</p>
-    <img src="<?php echo G5_URL ?>/images/exam.jpg" alt="농장 전경 사진">
+    <img src="<?php echo G5_URL ?>/images/intro2.png" alt="함께 찍은 사진">
     <p>전라남도 함평군 해보면 올림픽로 973<br>(지번)해보면 대각리 623(우) 57115</p>
 </section>
 
