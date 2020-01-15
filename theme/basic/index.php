@@ -30,20 +30,15 @@ include_once(G5_THEME_PATH.'/head.php');
 
 <div class="indexlink">
     <div class="indexlinkbox1">
-        <p class="indexlink1T">키우기 세트 구매</P>
-        <p class="indexlink1C1">Type1 번데기에서 성충으로 키우기</p>
-        <p class="indexlink1C2">Type2 애벌레에서 성충으로 키우기</p>
-        <p class="indexlink1C3">Type3 성충에서 알 낳기, 부화하기</p>
-        <p class="indexlink1btn"><a href="#">키우기 세트 바로가기</a></p>
-        <img src="<?php echo G5_URL ?>/images/link1.png" alt="인덱스 키우기 애벌레">
+        <img src="<?php echo G5_URL ?>/images/indexdown.png" alt="농장내부사진">
     </div>
     <div class="indexlinkbox2">
         <p class="indexlink2T">굼벵이 구매</P>
-        <p class="indexlink2C1">Type1 건조 분말 굼뱅이 구매</p>
-        <p class="indexlink2C2">Type2 건조 통 굼벵이 구매</p>
-        <p class="indexlink2C3">Type3 성충,코쿤 등 구매</p>
-        <p class="indexlink2btn"><a href="#">굼벵이 구매 바로가기</a></p>
-        <img src="<?php echo G5_URL ?>/images/link2.png" alt="인덱스 굼벵이 가루">
+        <p class="indexlink2C1">Type1 건조 통 굼벵이</p>
+        <p class="indexlink2C2">Type2 살아있는 성충(암/수)</p>
+        <p class="indexlink2C3">Type3 살아있는 코쿤,굼벵이</p>
+        <p class="indexlink2btn"><a href="http://goommorning.co.kr/bbs/board.php?bo_table=goom">굼벵이 구매 바로가기</a></p>
+        <img src="<?php echo G5_URL ?>/images/link1.png" alt="굼벵이와 통나무">
     </div>
 </div>    
 
