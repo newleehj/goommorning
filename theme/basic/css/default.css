@@ -200,7 +200,7 @@ box-shadow:0 2px 5px rgba(0,0,0,0.2)}
 .lt_wr:nth-child(3n+1) {clear:both}
 .latest_wr {margin-bottom:20px}
 .latest_wr:after {display:block;visibility:hidden;clear:both;content:""}
-.latest_top_wr {width:1100px;margin-left:-70px;}
+.latest_top_wr {width:1200px;margin-left:-120px;}
 .latest_top_wr:after {display:block;visibility:hidden;clear:both;content:""}
 
 /* 하단 레이아웃 */
