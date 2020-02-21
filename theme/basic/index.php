@@ -49,11 +49,14 @@ include_once(G5_THEME_PATH.'/head.php');
 .gc_video{width:500px;height:350px;background:#323333;float:left;border-top-right-radius:10px;border-top-left-radius:10px;}
 .gc_video>p{width:50%;font-size:16px;color:#fff;text-align:center;padding:3px 0;border:1px solid #fff;margin:20px auto;border-radius:20px;}
 #main_v{width:500px;}
-.gc_naver{width:345px;height:350px;background:green;float:left;display:block;margin-left:10px;}
-.gc_buy{width:345px;height:350px;background:#EA5414;float:left;display:block;}
+.gc_naver{width:345px;height:350px;float:left;margin-left:10px;}
+.gc_naver>a>img{width:350px;}
+.gc_buy{width:345px;height:350px;background:url("<?php echo G5_URL ?>/images/buy.png" );background-size:350px;float:left;display:block;position:relative}
+.gc_buy>p{font-size:18px;color:#fff;position:absolute;top:230px;left:20px;line-height:1.8;letter-spacing:-2px;}
 
-/* 하단 한줄 배너-전화번호,계좌번호 */
-.banner_text{width:1200px;margin-left:-120px;}
+/* 하단 갤러리 */
+.ggallery{width:1200px;background:#323333;margin:10px 0 0 -120px;position:relative;}
+.ggallery>p{position:absolute;top:10px;left:10px;z-index:9999;font-size:50px;color:#fff;font-weight:bolder;text-shadow: 1px 2px #323333;}
 </style>
 
 <script>
@@ -153,14 +156,19 @@ include_once(G5_THEME_PATH.'/head.php');
             <p>Goom모닝 영상으로 보기</p>
             <video id="main_v" src="<?php echo G5_URL ?>/images/main.mp4" controls=""></video>
     </div>
-    <div class="gc_naver"></div>
-     <div class="gc_buy"></div>   
+    <div class="gc_naver"><a href="https://shopping.naver.com/home/p/index.nhn"><img src="<?php echo G5_URL ?>/images/naverclick.png"  alt="키보드"></a></div>
+     <div class="gc_buy">
+        <p>
+            [휴대전화] 010-5904-1603</br>
+            [사무실] 061-000-0000</br>
+            ※ 전화 주문 시 택배비 무료!
+        </p>
+     </div>   
 </div>
 
-
-
-<p class="banner_text"><span>구매 문의</span> 010-5904-1603  ㅣ  <span>E-mail</span> goommorning@naver.com  ㅣ  <span>계좌</span> 농협 000-0000-00000(굼모닝)</p>
-
+<div class="ggallery">
+    <p>Gallery</p>
+    <?php echo latest('theme/color_focus_pic3', 'gallery', 5, 30);?>
 <?php
 include_once(G5_THEME_PATH.'/tail.php');
 ?>
