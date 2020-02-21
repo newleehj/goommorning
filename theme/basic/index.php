@@ -37,12 +37,20 @@ include_once(G5_THEME_PATH.'/head.php');
 .gTab2_img{position:absolute;top:260px;left:640px;width:80px;}
 
 .gTab3{position:relative;}
-.gTab3>p{position:absolute;top:100px;left:100px;font-size:18px;color:#fff;line-height:2.5;}
+.gTab3>p{position:absolute;top:80px;left:100px;font-size:18px;color:#fff;line-height:2.5;}
 .gTabs2{color:#EA5414;}
-.tab3btn{display:none;}
+.tab3btn{width:300px;position:absolute;top:300px;left:320px;padding:5px 0;color:#fff;border:2px solid #fff;border-radius:20px;background:none;}
 
 .gTab4{position:relative;}
 .gTab4>p{position:absolute;top:80px;left:100px;font-size:18px;color:#fff;line-height:1.8;}
+
+/* 컨텐츠-영상,네이버쇼핑바로가기,직접주문 */
+.gcontents{width:1200px;height:350px;margin:50px 0 0 -120px;}
+.gc_video{width:500px;height:350px;background:#323333;float:left;border-top-right-radius:10px;border-top-left-radius:10px;}
+.gc_video>p{width:50%;font-size:16px;color:#fff;text-align:center;padding:3px 0;border:1px solid #fff;margin:20px auto;border-radius:20px;}
+#main_v{width:500px;}
+.gc_naver{width:345px;height:350px;background:green;float:left;display:block;margin-left:10px;}
+.gc_buy{width:345px;height:350px;background:#EA5414;float:left;display:block;}
 
 /* 하단 한줄 배너-전화번호,계좌번호 */
 .banner_text{width:1200px;margin-left:-120px;}
@@ -127,10 +135,6 @@ include_once(G5_THEME_PATH.'/head.php');
     
 </div>   
 
-<h2 class="sound_only">contents</h2>
-
-
-
 <h2 class="sound_only">최신글</h2>
 <div class="latest_top_wr">
     <?php
@@ -142,6 +146,18 @@ include_once(G5_THEME_PATH.'/head.php');
 	echo latest('theme/basic', 'notice', 4, 23);		// 최소설치시 자동생성되는 공지사항게시판
     ?>
 </div>
+
+<h2 class="sound_only">contents</h2>
+<div class="gcontents">
+    <div class="gc_video">
+            <p>Goom모닝 영상으로 보기</p>
+            <video id="main_v" src="<?php echo G5_URL ?>/images/main.mp4" controls=""></video>
+    </div>
+    <div class="gc_naver"></div>
+     <div class="gc_buy"></div>   
+</div>
+
+
 
 <p class="banner_text"><span>구매 문의</span> 010-5904-1603  ㅣ  <span>E-mail</span> goommorning@naver.com  ㅣ  <span>계좌</span> 농협 000-0000-00000(굼모닝)</p>
 
