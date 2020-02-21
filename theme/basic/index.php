@@ -10,10 +10,65 @@ if (G5_IS_MOBILE) {
 include_once(G5_THEME_PATH.'/head.php');
 ?>
 
+<style>
+/* 상단Tab css */
+/* 상단Tab-header */
+#gTab{width:1200px;height:600px;position:relative;top:0;left:-120px;}
+.gTab_h{font-size:0;}
+.gTab_h>li{display:inline-block;background:#323333;border-right:1px solid #fff;box-sizing:border-box;}
+.gTab_h>li:nth-child(1){border-top-left-radius:10px;}
+.gTab_h>li:nth-child(4){border-top-right-radius:10px;}
+.gTab_h>li>a{font-size:16px;color:#fff;padding:15px 47px;display:block;font-weight:bold;}
+.gTab_h>li>a:hover{color:#EA5414;}
+.gActive{border-bottom:3px solid #EA5414;}
+
+
+/* 상단Tab-text */
+.gTab1>img,.gTab2>img,.gTab3>img,.gTab4>img{border-top-right-radius:10px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;}
+.gTab1{position:relative;}
+.gTab1>p{position:absolute;top:100px;left:100px;font-size:18px;color:#fff;line-height:2.5;}
+.gTab1>p>span{color:#EA5414;}
+.gTab1_img{position:absolute;top:210px;left:580px;width:130px;}
+
+.gTab2{position:relative;}
+.gTab2>p{position:absolute;top:100px;left:100px;font-size:18px;color:#fff;line-height:2.2;}
+.gTabss{font-size:14px;letter-spacing:-4px;}
+.gTabs{background:rgba(234,84,20,0.8);color:#323333;font-size:20px;padding:2px 25px;border-radius:5px;font-weight:bold;}
+.gTab2_img{position:absolute;top:260px;left:640px;width:80px;}
+
+.gTab3{position:relative;}
+.gTab3>p{position:absolute;top:100px;left:100px;font-size:18px;color:#fff;line-height:2.5;}
+.gTabs2{color:#EA5414;}
+.tab3btn{display:none;}
+
+.gTab4{position:relative;}
+.gTab4>p{position:absolute;top:80px;left:100px;font-size:18px;color:#fff;line-height:1.8;}
+
+/* 하단 한줄 배너-전화번호,계좌번호 */
+.banner_text{width:1200px;margin-left:-120px;}
+</style>
+
+<script>
+    $(function(){
+        var tabBtn = $('.gTab_h>li');
+        var tabCont = $('.gTab_t>div');
+        tabCont.hide().eq(0).show();
+        tabBtn.click(function(e){
+            e.preventDefault();
+            var target=$(this);
+            var index=target.index();
+            tabBtn.removeClass('gActive');
+            target.addClass('gActive');
+            tabCont.css("display","none");
+            tabCont.eq(index).css("display","block");
+        })
+    })
+</script>
+
 <h2 class="sound_only">상단Tab</h2>
 <div id="gTab">
     <ul class="gTab_h">
-        <li><a href="#">굼모닝 소개</a></li>
+        <li class="gActive"><a href="#">굼모닝 소개</a></li>
         <li><a href="#">굼벵이 사육</a></li>
         <li><a href="#">식용 굼벵이</a></li>
         <li><a href="#">질문있어요!</a></li>
@@ -24,39 +79,47 @@ include_once(G5_THEME_PATH.'/head.php');
             <p>
                 Goom모닝은 청정한 전남 함평군에 자리잡고 있으며<br>
                 서울과 광주에서 귀농한 두 청년농부가 아주 열심히<br>
-                흰점박이꽃무지(굼벵이) 사육과<br>
-                건조 굼벵이 판매를 하고 있습니다
+                <span>흰점박이꽃무지(꽃벵이) 사육과 건조 굼벵이 판매를 하고 있습니다</span><br>
+                또한 두 청년농부는 식용류 생산을 위한 유채 농사와 더불어<br>
+                삼잎국화, 단삼을 비롯한 여러 산나물을 재배하고 있습니다<br>
+                <span>굼모닝 농장은 2018년 신축된 축사로, 위생관리에 힘쓰고 있습니다</span><br>
             <p>
+            <img src="<?php echo G5_URL ?>/images/link1.png" alt="굼모닝,굼벵이" class="gTab1_img">
         </div>
         <div class="gTab2">
             <img src="<?php echo G5_URL ?>/images/tab2.png" alt="농장내부,굼벵이">
+            <p> 
+                <span class="gTabs"> 흰점박이꽃무지 유충인 굼벵이 사육은 어떻게 할까요?</span><br>
+                <span class="gTabss">▷▷▶</span> 작은 굼벵이가 아닌 속이 꽉찬 3령 굼벵이를 선별 <br>
+                <span class="gTabss">▷▷▶</span> 굼벵이 불순물(대변) 제거 작업 <span class="gTabss">▷▷▶</span> 살균을 위한 삶기 작업 <br>
+                <span class="gTabss">▷▷▶</span> 건조 작업 <span class="gTabss">▷▷▶</span> 순수 100% 굼벵이를 소포장하여 판매<br><br>
+                ● 굼벵이는 버섯배지를 먹고 자라며, 1령>2령>3령 단계로 성장합니다<br>
+                ● 성충은 바나나, 사과 등 과일을 먹고 자라며, 1개월 정도 생존합니다
             <p>
-                흰점박이꽃무지(꽃벵이)의 유충인 식용 굼벵이<br>
-                ▷▷ 작은 굼벵이가 아닌 속이 꽉찬 3령 굼벵이를 선별<br>
-                굼벵이 불순물 제거 작업 ▷▷ 살균을 위한 삶기 작업<br>
-                ▷▷ 건조 작업 후 순수 100% 굼벵이를 소포장하여 판매<br>
-            <p>
+            <img src="<?php echo G5_URL ?>/images/shortcut.png" alt="굼모닝,굼벵이" class="gTab2_img">
         </div>
         <div class="gTab3">
             <img src="<?php echo G5_URL ?>/images/tab1.png" alt="제품사진">
+            <p><span class="gTabs">굼모닝 식용 굼벵이(건조 통 굼벵이)의 좋은 점은?</span><br>
+                 굼벵이는 <span class="gTabs2">늘 피로한 분, 간 기능이 저하된 분</span>들에게 도움을 주는 고단백 식품입니다 <br>
+                건조 통 굼벵이는 굼벵이를 첨가한 식품이 아닌,  <span class="gTabs2">오롯이 굼벵이 100% </span>입니다<br>
+                굼모닝은 중금속 검출 검사 등 <span class="gTabs2">주기적인 식품 안전 검사</span>를 실시합니다<br>
+                테스트용으로 섭취할 수 있도록 소량 포장 제품을 판매합니다<br>
+                미래식량인 곤충 식품의 대중화를 위해 마진을 줄여 가격을 낮췄습니다<br>
             <p>
-                <h4 class="th1">굼모닝 통 굼벵이의 좋은 점은?</h4>
-                그 무엇도 섞지 않은, 순수 100% 굼벵이입니다.<br>
-                주기적인 중금속 및 품질 검사로 안전합니다.<br>
-                식용 굼벵이 대중화를 위해 마진을 줄여 가격을 낮췄습니다.<br>
-            <p>
-            <input type="button" value="구매하러 바로가기"class="tab3btn"> 
+            <a href="http://goommorning.co.kr/bbs/board.php?bo_table=goom"><input type="button" value="구매하러 바로가기"class="tab3btn"></a>
         </div>
         <div class="gTab4">
             <img src="<?php echo G5_URL ?>/images/tab4.png" alt="건조 굼벵이">
             <p>
-                <h4 class="th1">건조 굼벵이는 무슨 맛인가요?</h4>
-                단 맛이 없는 새우과자 맛입니다. 
-                <h4 class="th1">통 굼벵이 먹을 수 있을까요?</h4>
-                번데기와 비슷한 크기와 형태이며, 번데기를 먹는 것과 비슷합니다.
-                <h4 class="th1">굼벵가 효과가 있나요?</h4>
-                동의보감에도 나와있듯, 굼벵이 효과는 많이 알려져있습니다.
-                섭취가 처음이라면, 소포장 제품을 구매하여 섭취 후 효과를 느껴보세요!
+                <span class="gTabs">건조 통 굼벵이는 무슨 맛인가요?</span><br>
+                단 맛이 없는 새우과자 맛입니다. 비리지 않고 고소합니다<br><br>
+                <span class="gTabs">건조 통 굼벵이 먹을 수 있을까요?</span><br>
+                번데기와 비슷한 크기와 형태이며, 번데기를 먹는 것과 비슷합니다<br>
+                가루 굼벵이보다 저렴한 통 굼벵이를 구매하여 믹서기로 직접 분쇄할 수 있습니다<br><br>
+                <span class="gTabs">굼벵이를 먹으면 효과가 있나요?</span><br>
+                동의보감에도 나와있듯, 굼벵이 효과는 많이 알려져있습니다<br>
+                굼벵이가 처음이라면, 소량 포장 제품을 구매하여 섭취해 직접 효과를 느껴보세요!<br>
             <p>
         </div>
     </div>
@@ -64,8 +127,9 @@ include_once(G5_THEME_PATH.'/head.php');
     
 </div>   
 
-
 <h2 class="sound_only">contents</h2>
+
+
 
 <h2 class="sound_only">최신글</h2>
 <div class="latest_top_wr">
@@ -80,20 +144,6 @@ include_once(G5_THEME_PATH.'/head.php');
 </div>
 
 <p class="banner_text"><span>구매 문의</span> 010-5904-1603  ㅣ  <span>E-mail</span> goommorning@naver.com  ㅣ  <span>계좌</span> 농협 000-0000-00000(굼모닝)</p>
-
-<div class="indexlink">
-    <div class="indexlinkbox1">
-        <img src="<?php echo G5_URL ?>/images/indexdown.png" alt="농장내부사진">
-    </div>
-    <div class="indexlinkbox2">
-        <p class="indexlink2T">굼벵이 구매</P>
-        <p class="indexlink2C1">Type1 건조 통 굼벵이</p>
-        <p class="indexlink2C2">Type2 살아있는 성충(암/수)</p>
-        <p class="indexlink2C3">Type3 살아있는 코쿤,굼벵이</p>
-        <p class="indexlink2btn"><a href="http://goommorning.co.kr/bbs/board.php?bo_table=goom">굼벵이 구매 바로가기</a></p>
-        <img src="<?php echo G5_URL ?>/images/link1.png" alt="굼벵이와 통나무">
-    </div>
-</div>    
 
 <?php
 include_once(G5_THEME_PATH.'/tail.php');
