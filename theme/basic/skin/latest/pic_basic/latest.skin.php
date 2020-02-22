@@ -9,7 +9,7 @@ $thumb_height = 150;
 ?>
 <style>
 .pic_lt{width:100%;height:300px;}
-.pic_lt>ul>li>a{font-size:16px;}
+.pic_lt>ul>li>a{font-size:15px;}
 </style>
 
 <div class="pic_lt">

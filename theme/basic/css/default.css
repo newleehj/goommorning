@@ -260,7 +260,7 @@ box-shadow:0 2px 5px rgba(0,0,0,0.2)}
 
 /* ckeditor 단축키 */
 .cke_sc {margin:0 0 5px;text-align:right}
-.btn_cke_sc {display:inline-block;padding:0 10px;height:23px;border:1px solid #ccc;background:#fafafa;color:#000;text-decoration:none;line-height:1.9em;vertical-align:middle;cursor:pointer}
+.btn_cke_sc {display:inline-block;padding:0 10px;height:23px;border:1px solid #ccc;background:#fafafa;color:#000;text-decoration:none;line-height:1em;vertical-align:middle;cursor:pointer}
 .cke_sc_def {margin:0 0 5px;padding:10px;border:1px solid #ccc;background:#f7f7f7;text-align:center}
 .cke_sc_def dl {margin:0 0 5px;text-align:left;zoom:1}
 .cke_sc_def dl:after {display:block;visibility:hidden;clear:both;content:""}
