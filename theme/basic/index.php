@@ -11,6 +11,26 @@ include_once(G5_THEME_PATH.'/head.php');
 ?>
 
 <style>
+/* bg*/
+#wrapper::before{
+    content:'';
+    background-color:rgba(0,40,100,0.1);
+    display:block;
+    width:9000px;
+    height:1300px;
+    position:absolute;
+    top:1590px;left:0;
+}
+#container_wr::before{
+    content:'';
+    background-color:rgba(221,221,221,0.3);
+    display:block;
+    width:9000px;
+    height:805px;
+    position:absolute;
+    top:785px;left:0;
+}    
+
 /* 상단Tab css */
 /* 상단Tab-header */
 #gTab{width:1200px;height:600px;position:relative;top:0;left:-120px;}
@@ -24,7 +44,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
 
 /* 상단Tab-text */
-.gTab1>img,.gTab2>img,.gTab3>img,.gTab4>img{border-top-right-radius:10px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;}
+.gTab1>img,.gTab2>img,.gTab3>img,.gTab4>img{border-top-right-radius:10px;}
 .gTab1{position:relative;}
 .gTab1>p{position:absolute;top:100px;left:100px;font-size:18px;color:#fff;line-height:2.5;}
 .gTab1>p>span{color:#EA5414;}
@@ -64,6 +84,7 @@ include_once(G5_THEME_PATH.'/head.php');
 /* 하단-갤러리 슬라이드*/
 .ggallery{width:1200px;background:#323333;margin:10px 0 0 -120px;position:relative;}
 .ggallery>p{position:absolute;top:10px;left:10px;z-index:9999;font-size:50px;color:#fff;font-weight:bolder;text-shadow: 1px 2px #323333;}
+
 
 </style>
 
@@ -152,6 +173,7 @@ include_once(G5_THEME_PATH.'/head.php');
     // 이 함수가 바로 최신글을 추출하는 역할을 합니다.
     // 사용방법 : latest(스킨, 게시판아이디, 출력라인, 글자수);
     // 테마의 스킨을 사용하려면 theme/basic 과 같이 지정
+    echo latest('theme/pic_basic', 'product', 4, 30);		// 최소설치시 자동생성되는 자유게시판
     echo latest('theme/basic1', 'free', 5, 30);		// 최소설치시 자동생성되는 자유게시판
 	echo latest('theme/basic1', 'qaqa', 5, 30);			// 최소설치시 자동생성되는 질문답변게시판
 	echo latest('theme/basic1', 'notice', 5, 30);		// 최소설치시 자동생성되는 공지사항게시판
