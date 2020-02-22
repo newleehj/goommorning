@@ -45,12 +45,12 @@ include_once(G5_THEME_PATH.'/head.php');
 .gTab4>p{position:absolute;top:80px;left:100px;font-size:18px;color:#fff;line-height:1.8;}
 
 /* 컨텐츠-영상,네이버쇼핑바로가기,직접주문 */
-.gcontents{width:1200px;height:340px;margin:50px 0 0 -130px;}
+.gcontents{width:1200px;height:340px;margin:50px 0 0 -120px;}
 .gc_video{width:605px;height:340px;background:#323333;float:left;position:relative;}
 .gc_video>p{position:absolute;top:10px;left:10px;z-index:9999;font-size:40px;color:#fff;font-weight:bolder;text-shadow: 1px 2px #323333;}
 #main_v{height:340px;}
 
-.gc_naver{width:235px;height:340px;float:left;margin:0 10px;border:1px solid #ddd;position:relative;}
+.gc_naver{width:235px;height:340px;float:left;margin:0 10px;border:1px solid #ddd;position:relative;background:#fff;}
 .gc_naver_h{font-size:25px;color:#323333;position:absolute;top:30px;left:25px;
                 line-height:1.5;letter-spacing:-2px;font-weight:bold;}
 .gc_naver>a>img{width:160px;margin:170px 0 10px 30px;}
@@ -62,7 +62,7 @@ include_once(G5_THEME_PATH.'/head.php');
 .gc_buy_t{font-size:18px;color:#fff;position:absolute;top:230px;left:35px;line-height:1.5;letter-spacing:-1px;}
 
 /* 하단-갤러리 슬라이드*/
-.ggallery{width:1200px;background:#323333;margin:10px 0 0 -130px;position:relative;}
+.ggallery{width:1200px;background:#323333;margin:10px 0 0 -120px;position:relative;}
 .ggallery>p{position:absolute;top:10px;left:10px;z-index:9999;font-size:50px;color:#fff;font-weight:bolder;text-shadow: 1px 2px #323333;}
 
 </style>
@@ -152,9 +152,9 @@ include_once(G5_THEME_PATH.'/head.php');
     // 이 함수가 바로 최신글을 추출하는 역할을 합니다.
     // 사용방법 : latest(스킨, 게시판아이디, 출력라인, 글자수);
     // 테마의 스킨을 사용하려면 theme/basic 과 같이 지정
-    echo latest('theme/basic', 'free', 4, 23);		// 최소설치시 자동생성되는 자유게시판
-	echo latest('theme/basic', 'qaqa', 4, 23);			// 최소설치시 자동생성되는 질문답변게시판
-	echo latest('theme/basic', 'notice', 4, 23);		// 최소설치시 자동생성되는 공지사항게시판
+    echo latest('theme/basic1', 'free', 5, 30);		// 최소설치시 자동생성되는 자유게시판
+	echo latest('theme/basic1', 'qaqa', 5, 30);			// 최소설치시 자동생성되는 질문답변게시판
+	echo latest('theme/basic1', 'notice', 5, 30);		// 최소설치시 자동생성되는 공지사항게시판
     ?>
 </div>
 

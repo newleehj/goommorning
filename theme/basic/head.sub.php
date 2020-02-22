@@ -74,9 +74,11 @@ add_javascript('<script src="'.G5_JS_URL.'/wrest.js?ver='.G5_JS_VER.'"></script>
 add_javascript('<script src="'.G5_JS_URL.'/placeholders.min.js"></script>', 0);
 add_javascript('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>', 0);
 add_javascript('<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>', 0);
-add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/font-awesome/css/font-awesome.min.css">', 0);
 add_stylesheet('<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR|Black+Han+Sans&display=swap">', 0);
 add_stylesheet('<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">', 0);
+add_stylesheet('<link rel="shortcut icon" href="'.G5_URL.'/images/shortcut.png">', 0);
+add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/font-awesome/css/font-awesome.min.css">', 0);
+
 
 if(G5_IS_MOBILE) {
     add_javascript('<script src="'.G5_JS_URL.'/modernizr.custom.70111.js"></script>', 1); // overflow scroll 감지
