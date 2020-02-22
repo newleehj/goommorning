@@ -53,33 +53,33 @@ include_once(G5_THEME_PATH.'/head.php');
 .gTab2{position:relative;}
 .gTab2>p{position:absolute;top:100px;left:100px;font-size:18px;color:#fff;line-height:2.2;}
 .gTabss{font-size:14px;letter-spacing:-4px;}
-.gTabs{background:rgba(234,84,20);color:#323333;font-size:20px;padding:2px 25px;border-radius:5px;font-weight:bold;}
+.gTabs{background:#fff;color:#323333;font-size:20px;padding:2px 25px;border-radius:10px;}
 .gTab2_img{position:absolute;top:260px;left:640px;width:80px;}
 
 .gTab3{position:relative;}
-.gTab3>p{position:absolute;top:80px;left:100px;font-size:18px;color:#fff;line-height:2.5;}
+.gTab3>p{position:absolute;top:80px;left:80px;font-size:18px;color:#fff;line-height:2.5;}
 .gTabs2{color:#EA5414;}
 .tab3btn{width:300px;position:absolute;top:300px;left:320px;padding:5px 0;color:#fff;border:2px solid #fff;border-radius:20px;background:none;}
 
 .gTab4{position:relative;}
-.gTab4>p{position:absolute;top:80px;left:100px;font-size:18px;color:#fff;line-height:1.8;}
+.gTab4>p{position:absolute;top:80px;left:100px;font-size:14px;color:#fff;line-height:1.8;}
+.gTabs4{font-size:27px;letter-spacing:-2px;word-spacing:-3px;}
 
 /* 컨텐츠-영상,네이버쇼핑바로가기,직접주문 */
-.gcontents{width:1200px;height:340px;margin:50px 0 0 -120px;}
+.gcontents{width:1200px;height:340px;margin:50px 0 0 -120px;letter-spacing:-2px;word-spacing:-2px;}
 .gc_video{width:605px;height:340px;background:#323333;float:left;position:relative;}
 .gc_video>p{position:absolute;top:10px;left:10px;z-index:9999;font-size:40px;color:#fff;font-weight:bolder;text-shadow: 1px 2px #323333;}
 #main_v{height:340px;}
 
 .gc_naver{width:235px;height:340px;float:left;margin:0 10px;border:1px solid #ddd;position:relative;background:#fff;}
-.gc_naver_h{font-size:25px;color:#323333;position:absolute;top:30px;left:25px;
-                line-height:1.5;letter-spacing:-2px;font-weight:bold;}
-.gc_naver>a>img{width:160px;margin:170px 0 10px 30px;}
+.gc_naver_h{font-size:20px;color:#323333;position:absolute;top:30px;left:22px;line-height:1.5;}
+.gc_naver_h>span{border:2px solid #ddd;border-radius:20px;padding:0  30px 3px 30px;margin:50px 0 0 -7px;line-height:50px;}                
+.gc_naver>a>img{width:160px;margin:170px 0 10px 70px;}
 
-.gc_buy{width:340px;height:340px;
-            background:url("<?php echo G5_URL ?>/images/buy.png" );background-size:340px;float:left;display:block;position:relative;position:relative;}
+.gc_buy{width:340px;height:340px;background:url("<?php echo G5_URL ?>/images/intro1.png");background-size:340px;float:left;position:relative;}
 .gc_buy_h{position:absolute;top:10px;left:10px;z-index:9999;font-size:30px;color:#fff;font-weight:bolder;text-shadow: 1px 2px #323333;}
-.gc_buy_s{font-size:25px;color:#fff;position:absolute;top:90px;left:60px;line-height:1.5;letter-spacing:-2px;text-shadow: 1px 2px #323333;font-weight:bold;}
-.gc_buy_t{font-size:18px;color:#fff;position:absolute;top:230px;left:35px;line-height:1.5;letter-spacing:-1px;}
+.gc_buy_s{font-size:23px;color:#fff;position:absolute;top:80px;left:65px;line-height:1.5;letter-spacing:-2px;}
+.gc_buy_t{font-size:17px;color:#fff;position:absolute;top:210px;left:35px;line-height:1.8;}
 
 /* 하단-갤러리 슬라이드*/
 .ggallery{width:1200px;background:#323333;margin:10px 0 0 -120px;position:relative;}
@@ -108,23 +108,24 @@ include_once(G5_THEME_PATH.'/head.php');
 <h2 class="sound_only">상단Tab</h2>
 <div id="gTab">
     <ul class="gTab_h">
-        <li class="gActive"><a href="#">굼모닝 소개</a></li>
+        <li class="gActive"><a href="#">질문있어요!</a></li>
         <li><a href="#">굼벵이 사육</a></li>
         <li><a href="#">식용 굼벵이</a></li>
-        <li><a href="#">질문있어요!</a></li>
+        <li><a href="#">굼모닝 소개</a></li>
     </ul>
     <div class="gTab_t">
-        <div class="gTab1">
-            <img src="<?php echo G5_URL ?>/images/tab1.png" alt="굼모닝 생산자">
+        <div class="gTab4">
+            <img src="<?php echo G5_URL ?>/images/tab4.png" alt="건조 굼벵이">
             <p>
-                Goom모닝은 청정한 전남 함평군에 자리잡고 있으며<br>
-                서울과 광주에서 귀농한 두 청년농부가 아주 열심히<br>
-                <span>흰점박이꽃무지(꽃벵이) 사육과 건조 굼벵이 판매를 하고 있습니다</span><br>
-                또한 두 청년농부는 식용류 생산을 위한 유채 농사와 더불어<br>
-                삼잎국화, 단삼을 비롯한 여러 산나물을 재배하고 있습니다<br>
-                <span>굼모닝 농장은 2018년 신축된 축사로, 위생관리에 힘쓰고 있습니다</span><br>
+                <span class="gTabs4">Q) 건조 통 굼벵이는 무슨 맛인가요?</span><br>
+                &nbsp;&nbsp; ·&nbsp;단 맛이 없는 새우과자 맛입니다. 비리지 않고 고소합니다<br><br>
+                <span class="gTabs4">Q) 건조 통 굼벵이 먹을 수 있을까요?</span><br>
+                &nbsp;&nbsp; ·&nbsp;번데기와 비슷한 크기와 형태이며, 번데기를 먹는 것과 비슷합니다<br>
+                &nbsp;&nbsp; ·&nbsp;가루 굼벵이보다 저렴한 통 굼벵이를 구매하여 믹서기로 직접 분쇄할 수 있습니다<br><br>
+                <span class="gTabs4">Q) 굼벵이를 먹으면 효과가 있나요?</span><br>
+                &nbsp;&nbsp; ·&nbsp;동의보감에도 나와있듯, 굼벵이 효과는 많이 알려져있습니다<br>
+                &nbsp;&nbsp; ·&nbsp;굼벵이가 처음이라면, 소량 포장 제품을 구매하여 섭취해 직접 효과를 느껴보세요!<br>
             <p>
-            <!-- <img src="<?php echo G5_URL ?>/images/link1.png" alt="굼모닝,굼벵이" class="gTab1_img"> -->
         </div>
         <div class="gTab2">
             <img src="<?php echo G5_URL ?>/images/tab2.png" alt="농장내부,굼벵이">
@@ -141,25 +142,23 @@ include_once(G5_THEME_PATH.'/head.php');
         <div class="gTab3">
             <img src="<?php echo G5_URL ?>/images/tab1.png" alt="제품사진">
             <p><span class="gTabs">굼모닝 식용 굼벵이(건조 통 굼벵이)의 좋은 점은?</span><br>
-                 굼벵이는 <span class="gTabs2">늘 피로한 분, 간 기능이 저하된 분</span>들에게 도움을 주는 고단백 식품입니다 <br>
-                건조 통 굼벵이는 굼벵이를 첨가한 식품이 아닌,  <span class="gTabs2">오롯이 굼벵이 100% </span>입니다<br>
-                굼모닝은 중금속 검출 검사 등 <span class="gTabs2">주기적인 식품 안전 검사</span>를 실시합니다<br>
-                테스트용으로 섭취할 수 있도록 소량 포장 제품을 판매합니다<br>
-                미래식량인 곤충 식품의 대중화를 위해 마진을 줄여 가격을 낮췄습니다<br>
+                · &nbsp;굼벵이는 <span class="gTabs2">늘 피로한 분, 간 기능이 저하된 분</span>들에게 좋은 고단백 식품입니다 <br>
+                · &nbsp;건조 통 굼벵이는 굼벵이를 첨가한 식품이 아닌,  <span class="gTabs2">오롯이 굼벵이 100% </span>입니다<br>
+                · &nbsp;굼모닝은 중금속 검출 검사 등 <span class="gTabs2">주기적인 식품 안전 검사</span>를 실시합니다<br>
+                · &nbsp;테스트용으로 섭취할 수 있도록 소량 포장 제품을 판매합니다<br>
+                · &nbsp;미래식량인 곤충 식품의 대중화를 위해 마진을 줄여 가격을 낮췄습니다<br>
             <p>
             <a href="http://goommorning.co.kr/bbs/board.php?bo_table=goom"><input type="button" value="구매하러 바로가기"class="tab3btn"></a>
         </div>
-        <div class="gTab4">
-            <img src="<?php echo G5_URL ?>/images/tab4.png" alt="건조 굼벵이">
+        <div class="gTab1">
+            <img src="<?php echo G5_URL ?>/images/tab1.png" alt="굼모닝 생산자">
             <p>
-                <span class="gTabs">건조 통 굼벵이는 무슨 맛인가요?</span><br>
-                단 맛이 없는 새우과자 맛입니다. 비리지 않고 고소합니다<br><br>
-                <span class="gTabs">건조 통 굼벵이 먹을 수 있을까요?</span><br>
-                번데기와 비슷한 크기와 형태이며, 번데기를 먹는 것과 비슷합니다<br>
-                가루 굼벵이보다 저렴한 통 굼벵이를 구매하여 믹서기로 직접 분쇄할 수 있습니다<br><br>
-                <span class="gTabs">굼벵이를 먹으면 효과가 있나요?</span><br>
-                동의보감에도 나와있듯, 굼벵이 효과는 많이 알려져있습니다<br>
-                굼벵이가 처음이라면, 소량 포장 제품을 구매하여 섭취해 직접 효과를 느껴보세요!<br>
+                Goom모닝은 청정한 전남 함평군에 자리잡고 있으며<br>
+                서울과 광주에서 귀농한 두 청년농부가 아주 열심히<br>
+                <span>흰점박이꽃무지(꽃벵이) 사육과 건조 굼벵이 판매를 하고 있습니다</span><br>
+                또한 두 청년농부는 식용류 생산을 위한 유채 농사와 더불어<br>
+                삼잎국화, 단삼을 비롯한 여러 산나물을 재배하고 있습니다<br>
+                <span>굼모닝 농장은 2018년 신축된 축사로, 위생관리에 힘쓰고 있습니다</span><br>
             <p>
         </div>
     </div>
@@ -188,16 +187,16 @@ include_once(G5_THEME_PATH.'/head.php');
     </div>
     <div class="gc_naver">
         <a href="https://shopping.naver.com/home/p/index.nhn">
-        <p class="gc_naver_h">굼벵이 온라인 구매<br>바로가기 Click →</p>
+        <p class="gc_naver_h">건조 통 굼벵이<br> 온라인 구매<br><span>바로가기 Click →</span></p>
         <img src="<?php echo G5_URL ?>/images/link1.png" alt="제품사진"></a>
     </div>
     <div class="gc_buy">
             <p class="gc_buy_h">Conact<p>
-            <p class="gc_buy_s">굼벵이 전화 구매·문의<p>
+            <p class="gc_buy_s">Goom모닝 상담/문의<p>
             <p class="gc_buy_t">
-                [휴대전화] 010-5904-1603</br>
-                [사무실] 061-000-0000</br>
-                ※ 전화 주문 시 택배비 무료!
+                · &nbsp;건조 통 굼벵이 전화 주문시 택배비 무료!</br>
+                · &nbsp;휴대전화 010-5904-1603</br>
+                · &nbsp;굼모닝 농장 061-000-0000</br>
             </p>
     </div>  
 </div>
