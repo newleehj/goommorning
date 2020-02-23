@@ -66,8 +66,10 @@ include_once(G5_THEME_PATH.'/head.php');
 
 .gc_naver{width:235px;height:340px;float:left;margin:0 10px;border:1px solid #ddd;position:relative;background:#fff;}
 .gc_naver_h{font-size:20px;color:#323333;position:absolute;top:30px;left:22px;line-height:1.5;}
-.gc_naver_h>span{border:2px solid #ddd;border-radius:20px;padding:0  30px 3px 30px;margin:50px 0 0 -7px;line-height:50px;}                
+.gc_naver_h>span{border:2px solid #ddd;border-radius:20px;padding:0  30px 3px 30px;margin:50px 0 0 -7px;line-height:50px;}  
+.gc_naver_h>span:hover{border:2px solid #13AD67;color:#13AD67;}              
 .gc_naver>a>img{width:160px;margin:170px 0 10px 70px;}
+
 
 .gc_buy{width:340px;height:340px;background:url("<?php echo G5_URL ?>/images/intro1.png");background-size:340px;float:left;position:relative;}
 .gc_buy_h{position:absolute;top:10px;left:10px;z-index:9999;font-size:30px;color:#fff;font-weight:bolder;text-shadow: 1px 2px #323333;}
@@ -115,7 +117,7 @@ include_once(G5_THEME_PATH.'/head.php');
                 &nbsp;&nbsp; ·&nbsp;단 맛이 없는 새우과자 맛입니다. 비리지 않고 고소합니다<br><br>
                 <span class="gTabs1">Q) 건조 통 굼벵이 먹을 수 있을까요?</span><br>
                 &nbsp;&nbsp; ·&nbsp;번데기와 비슷한 크기와 형태이며, 번데기를 먹는 것과 비슷합니다<br>
-                &nbsp;&nbsp; ·&nbsp;가루 굼벵이보다 저렴한 통 굼벵이를 구매하여 믹서기로 직접 분쇄할 수 있습니다<br><br>
+                &nbsp;&nbsp; ·&nbsp;가루 굼벵이보다 저렴한 통 굼벵이를 구매하여 가정용 믹서기로 갈아서 드셔도 좋습니다<br><br>
                 <span class="gTabs1">Q) 굼벵이를 먹으면 효과가 있나요?</span><br>
                 &nbsp;&nbsp; ·&nbsp;동의보감에도 나와있듯, 굼벵이 효과는 많이 알려져있습니다<br>
                 &nbsp;&nbsp; ·&nbsp;굼벵이 섭취가 처음이라면, 소량 포장 제품을 구매하여 섭취한 후 그 효과를 느껴보세요!<br>
