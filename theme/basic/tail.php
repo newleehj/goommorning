@@ -22,7 +22,6 @@ if (G5_IS_MOBILE) {
 <!-- 하단 시작 { -->
 <div id="ft">
     <div id="ft_wr">
-        <img src="<?php echo G5_URL ?>/images/logowhite.png" alt="푸터 로고 흰색">   
         <div id="ft_link" class="ft_cnt">
             <a href="<?php echo get_pretty_url('content', 'privacy'); ?>">개인정보처리방침</a>
             <a href="<?php echo get_pretty_url('content', 'provision'); ?>">서비스이용약관</a>
@@ -31,8 +30,8 @@ if (G5_IS_MOBILE) {
         <div id="ft_company" class="ft_cnt2">
 	        <p class="ft_info">
 	        	회사명 : Goom모닝  ㅣ  대표 : 이행섭  ㅣ 주소 : 전라남도 함평군 해보면 올림픽로 973<br> 
-                Tel : 010-5904-1603  ㅣ  Fax : 000-000-0000  ㅣ  E-mail : goommorning@naver.com<br>
-				사업자 등록번호  : 123-45-67890  ㅣ  통신판매업신고번호 :  제 OO구 - 123호  ㅣ  개인정보관리책임자 : 이혜진<br>
+                Tel : 010-5904-1603  ㅣ  Fax : 0504-333-5726  ㅣ  E-mail : goommorning@naver.com<br>
+				사업자 등록번호  : 261-69-00223  ㅣ  통신판매업신고번호 :  2020-4960097-30-2-00002호
 			</p>
 	    </div>
 	</div>      
