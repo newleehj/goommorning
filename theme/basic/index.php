@@ -146,7 +146,7 @@ include_once(G5_THEME_PATH.'/head.php');
                 · &nbsp;테스트용으로 섭취할 수 있도록 <span class="gTabs2">소량 포장 제품을 판매</span>합니다<br>
                 · &nbsp;미래식량인 곤충 식품의 대중화를 위해 마진을 줄여 <span class="gTabs2">가격을 낮췄습니다</span><br>
             <p>
-            <a href="http://goommorning.co.kr/bbs/board.php?bo_table=goom"><input type="button" value="식용 굼벵이 구매 바로가기 Click→"class="tab3btn"></a>
+            <a href="http://goommorning.co.kr/bbs/board.php?bo_table=product"><input type="button" value="식용 굼벵이 구매 바로가기 Click→"class="tab3btn"></a>
         </div>
         <div class="gTab4">
             <img src="<?php echo G5_URL ?>/images/tab4.png" alt="굼모닝 생산자">
