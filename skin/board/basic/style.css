@@ -158,7 +158,7 @@ box-shadow:inset 0 2px 5px rgb(33, 135, 202)}
 .td_num strong {color:#000}
 .bo_cate_link {float:left;display:inline-block;margin-right:10px;background:#e2eaf6;color:#3a8afd;font-weight:normal !important;height:20px;line-height:10px;padding:5px 8px;border-radius:5px;font-size:0.95em} /* 글제목줄 분류스타일 */
 .bo_cate_link:hover {text-decoration:none}
-.bo_tit {display:block;color:#000;font-weight:bold}
+.bo_tit {display:block;color:#000;letter-spacing:-1px;word-spacing:-2px;;}
 .bo_current {color:#e8180c}
 #bo_list .profile_img img {border-radius:50%}
 #bo_list .cnt_cmt {background:#e9eff5;color:#3a8afd;font-size:11px;height:16px;line-height:16px;padding:0 5px;border-radius:3px;vertical-align:middle}
