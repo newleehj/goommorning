@@ -1,15 +1,15 @@
 @charset "utf-8";
 
 /* 신규 */
-.color-blue {color:#26b4ff}
-.color-blue:focus, .color-blue:hover {color:#24abf2}
+.color-blue {color:#13AD67}
+.color-blue:focus, .color-blue:hover {color:#13AD67}
 .color-gray {color:#999}
 .color-gray-no {color:#999}
 .color-gray:focus, .color-gray:hover {color:#333}
 .color-red {color:#cc0000}
 
-.color-blue-bg {background-color:#26b4ff} /* 배경색상 */
-.color-blue-bg:focus, .color-blue-bg:hover {background-color:#24abf2} /* 배경색상 롤오버 */
+.color-blue-bg {background-color:#13AD67} /* 배경색상 */
+.color-blue-bg:focus, .color-blue-bg:hover {background-color:#13AD67} /* 배경색상 롤오버 */
 .color-white-bg {background-color:#fff} /* 배경색상 */
 .color-white-bg:focus, .color-blue-bg:hover {background-color:#f3f3f3} /* 배경색상 롤오버 */
 
@@ -25,7 +25,7 @@
 .pb-5 {padding-bottom:15px;}
 .pline {border:1px solid #eee; padding:5px;}
 
-.comment_b {background-color:#26b4ff;border-radius:2px;padding:0px 5px 2px 5px; color:#fff; font-size:12px;}
+.comment_b {background-color:#13AD67;border-radius:2px;padding:0px 5px 2px 5px; color:#fff; font-size:12px;}
 
 input {border:1px solid #eee}
 
@@ -47,7 +47,7 @@ input {border:1px solid #eee}
 .pg_next {text-indent:-999px;overflow:hidden;background:url('img/btn_next.gif') no-repeat 50% 50% #f1f1f1;padding:0;border:0px solid #bbb}
 .pg_start:hover,.pg_prev:hover,.pg_end:hover,.pg_next:hover{background-color:#f1f1f1}
 
-.pg_current {display:inline-block;background:#26b4ff;color:#fff;font-weight:bold;height:35px;line-height:35px;padding:0 10px;min-width:35px;border-radius:3px;
+.pg_current {display:inline-block;background:#13AD67;color:#fff;font-weight:bold;height:35px;line-height:35px;padding:0 10px;min-width:35px;border-radius:3px;
 -webkit-box-shadow: inset 0px 0px 0px #222542;
 -moz-box-shadow:  inset 0px 0px 0px #222542;
 box-shadow: inset 0px 0px 0px #222542;
@@ -61,22 +61,22 @@ a.btn,.btn{line-height:35px;height:35px;padding:0 10px;text-align:center;font-we
 -o-transition: background-color 0.3s ease-out;
 transition: background-color 0.3s ease-out;}
 
-.btn_submit {border:0;background:#26b4ff;color:#fff;cursor:pointer;border:0}
-.btn_submit:hover {background:#24abf2}
+.btn_submit {border:0;background:#13AD67;color:#fff;cursor:pointer;border:0}
+.btn_submit:hover {background:#13AD67}
 
 
 
 /* 목록 버튼 */
 #bo_list a.btn_b01 {}
 #bo_list a.btn_b01:focus, #bo_list a.btn_b01:hover {}
-#bo_list a.btn_b02 {background-color:#26b4ff;border-radius:3px;line-height:35px;height:35px;padding:0px 20px 0px 20px;}
-#bo_list a.btn_b02:focus, #bo_list a.btn_b02:hover {background-color:#24abf2}
-#bo_list .sbtn_b03 {border:1px solid #26b4ff; border-radius:3px;line-height:25px;height:25px;padding:5px 10px 5px 10px;color:#26b4ff;font-weight:normal;}
+#bo_list a.btn_b02 {background-color:#13AD67;border-radius:3px;line-height:35px;height:35px;padding:0px 20px 0px 20px;}
+#bo_list a.btn_b02:focus, #bo_list a.btn_b02:hover {background-color:#13AD67}
+#bo_list .sbtn_b03 {border:1px solid 13AD67; border-radius:3px;line-height:25px;height:25px;padding:5px 10px 5px 10px;color:13AD67;font-weight:normal;}
 #bo_list .sbtn_b04 {border:1px solid #eee; border-radius:3px;line-height:25px;height:25px;padding:5px 10px 5px 10px;color:#777;font-weight:normal;}
 #bo_list .sbtn_b05 {border:1px solid #333; border-radius:3px;line-height:25px;height:25px;padding:5px 10px 5px 10px;color:#000;font-weight:normal;background-color:#fff;}
 
-#bo_list a.btn_b06 {background-color:#fff;border-radius:3px;border:1px solid #eee; line-height:35px;height:35px;padding:8px 10px 9px 10px;}
-#bo_list a.btn_b06:focus, #bo_list a.btn_b06:hover {border:1px solid #26b4ff;}
+#bo_list a.btn_b06 {background-color:#fff;border-radius:3px;line-height:35px;height:35px;padding:8px 10px 9px 10px;}
+#bo_list a.btn_b06:focus, #bo_list a.btn_b06:hover {border:1px solid 13AD67;}
 
 #bo_list a.btn_admin {background-color:#ffffff;border-radius:3px;color:#777;border:0px solid #ddd;} /* 관리자 전용 버튼 */
 #bo_list a.btn_admin:focus, #bo_list .btn_admin:hover {background-color:#ffffff;color:#333}
@@ -96,8 +96,8 @@ a.btn_admin2,.btn_admin2 {display:inline-block;color:#fff;text-decoration:none;v
 /* 읽기 버튼 */
 #bo_v a.btn_b01 {background-color:#fff;border-radius:3px;line-height:35px;height:35px;padding:0px 10px 0px 10px;border:1px solid #ddd; color:#333}
 #bo_v a.btn_b01:focus, #bo_v a.btn_b01:hover {background-color:#f3f3f3}
-#bo_v a.btn_b02 {background-color:#26b4ff;border-radius:3px;line-height:35px;height:35px;padding:0px 20px 0px 20px; color:#fff}
-#bo_v a.btn_b02:focus, #bo_v a.btn_b02:hover {background-color:#24abf2}
+#bo_v a.btn_b02 {background-color:13AD67;border-radius:3px;line-height:35px;height:35px;padding:0px 20px 0px 20px; color:#fff}
+#bo_v a.btn_b02:focus, #bo_v a.btn_b02:hover {background-color:#13AD67}
 
 #bo_v a.btn_admin {background-color:#ffffff;border-radius:3px;color:#777;border:0px solid #ddd;} /* 관리자 전용 버튼 */
 #bo_v a.btn_admin:focus, #bo_v .btn_admin:hover {background-color:#ffffff;color:#333}
@@ -107,8 +107,8 @@ a.btn_admin2,.btn_admin2 {display:inline-block;color:#fff;text-decoration:none;v
 
 /* 쓰기 버튼 */
 #bo_w .btn_confirm {} /* 서식단계 진행 */
-#bo_w .btn_submit {background-color:#26b4ff;border-radius:3px;line-height:35px;height:35px;padding:0px 20px 0px 20px; color:#fff}
-#bo_w .btn_submit:focus, #bo_w .btn_submit:hover {background-color:#24abf2}
+#bo_w .btn_submit {background-color:13AD67;border-radius:3px;line-height:35px;height:35px;padding:0px 20px 0px 20px; color:#fff}
+#bo_w .btn_submit:focus, #bo_w .btn_submit:hover {background-color:#13AD67}
 #bo_w button.btn_submit {}
 #bo_w fieldset .btn_submit {}
 #bo_w .btn_cancel {background-color:#fff;border-radius:3px;line-height:35px;height:35px;padding:0px 10px 0px 10px;border:1px solid #ddd; color:#333}
@@ -230,7 +230,7 @@ a.btn_admin2,.btn_admin2 {display:inline-block;color:#fff;text-decoration:none;v
 .bo_notice td {background:#f9f9f9 !important;border-bottom:1px solid #eee;}
 .bo_notice td a {font-weight:bold;}
 
-.bo_notice .notice_icon{display:inline-block;width:25px;line-height:25px;font-weight:normal;color:#26b4ff}
+.bo_notice .notice_icon{display:inline-block;width:25px;line-height:25px;font-weight:normal;color:13AD67}
 .td_num strong {color:#000}
 .bo_cate_link {display: inline-block;height: 20px;font-size:0.92em} /* 글제목줄 분류스타일 */
 .bo_tit{display:block;color:#000;font-weight:normal;font-size:14px;}
