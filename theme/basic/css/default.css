@@ -110,7 +110,7 @@ border:1px solid #558ab7 !important;
 #gnb #gnb_1dul {font-size:1.083em;padding:0;zoom:1;font-family: 'Nanum Gothic', sans-serif;}
 #gnb ul:after {display:block;visibility:hidden;clear:both;content:""}
 #gnb .gnb_1dli {float:left;line-height:40px;padding:0px;position:relative}
-#gnb .gnb_1dli:hover > a {color:#ea5414;
+#gnb .gnb_1dli:hover > a {color:#13AD67;
 -webkit-transition:background-color 2s ease-out;
 -moz-transition:background-color 0.3s ease-out;
 -o-transition:background-color 0.3s ease-out;
