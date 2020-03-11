@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* section01 소개 */
+#introwrap {width:100%;height:auto;background:#fff;position: relative;margin-top:30px;}
+.introimg{width:50%;position:relative;float:left;}
+.introimg>img{width:96%;display:block;margin:2% 0  2% 2%;}
+.introimg>p{position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);text-align:center;
+    font-size:14px;color:#fff;letter-spacing:-1px;word-spacing:-1px;text-shadow:2px 2px 4px #323333;}
+.introimg:hover{transform:scale(1.1,1.1);transition:all,0.3s;}
+#introwrap span{font-size:20px;color:#fff;}
+
+/* section02 영상,비디오 삽입*/
+.videowrap {width:100%;height:300px;;position:relative;margin-bottom:100px;}
+.videowrap > p {width:40%;font-size:16px;color:#fff;background:#323333;
+    border-radius:20px;text-align:center;font-weight:bolder;margin-bottom:20px;}
+#bg_video {width:95%;float:left;}
+.video1 {position:absolute;top:50px;left:0;width:50%}
+.video2 {position:absolute;top:50px;left:460px;width:50%}
+.video1 > p{position:absolute;top:260px;left:5px;
+    font-size:16px;color:#2c2c2c;letter-spacing:-1px;word-spacing:-2px;}
+.video2 > p{position:absolute;top:260px;left:5px;
+    font-size:16px;color:#2c2c2c;letter-spacing:-1px;word-spacing:-2px;}
+
+/* section04 오시는 길*/
+.mapwrap {width:100%;height:400px;position:relative}
+.mapwrap > .title {width:40%;font-size:16px;color:#fff;background:#323333;
+    border-radius:20px;text-align:center;font-weight:bolder;margin-bottom:20px;}
+.mapwrap > img {width:40%;float:left;border-radius:10px;margin-right:50px;}
+.mapwrap > p {font-size:16px;color:#2c2c2c;margin-top:50px;letter-spacing:-1px;word-spacing:-2px;}
