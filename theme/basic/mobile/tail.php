@@ -12,17 +12,16 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
             <a href="<?php echo get_pretty_url('content', 'privacy'); ?>">개인정보처리방침</a>
             <a href="<?php echo get_pretty_url('content', 'provision'); ?>">서비스이용약관</a>
         </div>
-        Copyright &copy; <b>소유하신 도메인.</b> All rights reserved.<br>
+        Copyright &copy; <b>Goom모닝</b> All rights reserved.<br>
     </div>
     <div class="ft_cnt">
     	<h2>사이트 정보</h2>
         <p class="ft_info">
-        	회사명 : 회사명 / 대표 : 대표자명<br>
-			주소  : OO도 OO시 OO구 OO동 123-45<br>
-			사업자 등록번호  : 123-45-67890<br>
-			전화 :  02-123-4567  팩스  : 02-123-4568<br>
-			통신판매업신고번호 :  제 OO구 - 123호<br>
-			개인정보관리책임자 :  정보책임자명<br>
+        	회사명 : Goom모닝 / 대표 : 이행섭<br>
+			주소  : 전라남도 함평군 해보면 올림픽로 973<br>
+			사업자 등록번호  : 261-69-00223<br>
+			전화 :  010-5904-1603  팩스  : 0504-333-5627<br>
+			통신판매업신고번호 :  2020-4960097-30-2-00002호<br>
 		</p>
     </div>
     <button type="button" id="top_btn"><i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span></button>
