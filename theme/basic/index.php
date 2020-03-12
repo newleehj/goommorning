@@ -17,7 +17,7 @@ include_once(G5_THEME_PATH.'/head.php');
     background-color:rgba(0,40,100,0.1);
     display:block;
     width:9000px;
-    height:1300px;
+    height:1000px;
     position:absolute;
     top:1590px;left:0;
 }
@@ -195,7 +195,7 @@ include_once(G5_THEME_PATH.'/head.php');
             <p class="gc_buy_t">
                 · &nbsp;건조 통 굼벵이 전화 주문시 택배비 무료!</br>
                 · &nbsp;휴대전화 010-5904-1603</br>
-                · &nbsp;굼모닝 농장 061-000-0000</br>
+                <!-- · &nbsp;굼모닝 농장 061-000-0000</br> -->
             </p>
     </div>  
 </div>
