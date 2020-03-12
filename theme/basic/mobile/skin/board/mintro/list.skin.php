@@ -36,10 +36,17 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
             </div>
             <div class="introimg">
                 <img src="<?php echo G5_URL ?>/images/intro/intro5.png" alt="잡초농부">
-                <p><br><br>잡초농부<br> 이지형</p>
+                <p><br><br><br><br>잡초농부<br> 이지형</p>
             </div>
     </article>
+    <article class="introtext2">
+        <img src="<?php echo G5_URL ?>/images/mintro1.jpg" alt="">
+        <img src="<?php echo G5_URL ?>/images/mintro2.jpg" alt="">
+        <img src="<?php echo G5_URL ?>/images/mintro4.jpg" alt="">
+        <img src="<?php echo G5_URL ?>/images/mintro3.jpg" alt="">
+    </article>
 </section>
+
 
 
 
